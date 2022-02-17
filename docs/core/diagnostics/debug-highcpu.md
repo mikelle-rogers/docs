@@ -158,7 +158,9 @@ dotnet-trace collect -p 22884 --providers Microsoft-DotNETCore-SampleProfiler
 
 Let [dotnet-trace](dotnet-trace.md) run for about 20-30 seconds, and then press the <kbd>Enter</kbd> to exit the collection. The result is a `nettrace` file located in the same folder. The `nettrace` files are a great way to use existing analysis tools on Windows.
 
-Open the `nettrace` with [`PerfView`](https://github.com/microsoft/perfview/blob/master/documentation/Downloading.md) as shown below.
+Open the `nettrace` with VisualStudio as shown below.
+
+Additionally, one can open the `nettrace` with [`PerfView`](https://github.com/microsoft/perfview/blob/master/documentation/Downloading.md) as shown below.
 
 [![PerfView image](media/perfview.jpg)](media/perfview.jpg#lightbox)
 
